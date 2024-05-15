@@ -1,0 +1,250 @@
+body
+{
+    background-image: url('fotki/background.png');
+    background-size: 1366px;
+    height: 768px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 80px
+}
+header
+{
+    width: 1366px;
+    margin: 0 auto;
+}
+.logo
+{
+    padding-top: 49px;
+    padding-left: 155px;
+    
+}
+.logo img
+{
+    float: left;
+}
+.logo p
+{
+    margin-left: 12px;
+    height: 44px;
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none;
+    font-family: "Verdana";
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    line-height: 0.750;
+}
+.Holidays
+{
+    font-size: 18px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.167;
+}
+.email-number 
+{   
+    
+    float: right;
+    text-align: end;
+    margin-right: 147px;
+    font-size: 18px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.4;   
+}
+.logo a:hover p, .logo a:hover .Holidays
+{
+    
+    color: #f26522;
+}
+.logo a:hover img {
+     content: url('logo1.png'); 
+}
+
+main
+{
+    width: 1366px;
+    margin: 0 auto;
+}
+.cards
+{
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 100%;
+    width: 1366px;
+    padding-top: 48px; 
+}
+.object1
+{
+    float: left;
+    margin-left: 147px;
+}
+.object2
+{
+    float: left;
+    margin-left: 67px;
+}
+.object3
+{
+    float: right;
+    margin-right: 147px;
+}
+.card1, .card2, .card3, .card4, .card5, .card6
+{
+    display: flex;
+    position: relative;
+}
+.card1 a, .card2 a, .card3 a, .card4 a, .card5 a, .card6 a
+{
+    font-size: 18px;
+    font-family: "Verdana";
+    color: white;
+    line-height: 2.167;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img
+{
+  border-style: solid;
+  border-width: 2px;
+}
+.description
+{
+    font-size: 18px;
+    font-family: "Verdana";
+    color: white;
+    line-height: 2.167;
+    text-align: center;
+}
+.dateils
+{
+    background-color: #f26522;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 57%; 
+    width: 100%;
+    height: 63px;
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 0.4s ease-in-out;
+}
+.left_text
+{
+    margin-top: 16px;
+    margin-left: 22px;
+    margin-right: 18px;
+    font-size: 10px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.1;
+    text-align: left;
+    height: 100%;
+}
+.euro
+{
+    font-size: 20px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.05;
+    text-align: left; 
+}
+.right_text
+{
+    font-size: 14px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    float: right
+}
+.gt
+{
+    opacity: 0.502;
+}
+.card1, .card3, .card5 
+{
+    margin-bottom: 48px;
+}
+.card2, .card4, .card6 
+{
+    margin-bottom: 10px;
+}
+.card1 a:hover .description 
+{
+    color:#f26522;
+}
+.card1 a:hover .dateils 
+{
+    opacity: 1;
+    top: 67%; 
+    transform: translateY(-25px);
+} 
+.card2 a:hover .description 
+{
+    color:#f26522;
+}
+.card2 a:hover .dateils 
+{
+    opacity: 1;
+    top: 67%; 
+    transform: translateY(-25px);
+} 
+.card3 a:hover .description 
+{
+    color:#f26522;
+}
+.card3 a:hover .dateils 
+{
+    opacity: 1;
+    top: 67%; 
+    transform: translateY(-25px);
+} 
+.card4 a:hover .description 
+{
+    color:#f26522;
+}
+.card4 a:hover .dateils 
+{
+    opacity: 1;
+    top: 67%; 
+    transform: translateY(-25px);
+} 
+.card5 a:hover .description 
+{
+    color:#f26522;
+}
+.card5 a:hover .dateils 
+{
+    opacity: 1;
+    top: 67%; 
+    transform: translateY(-25px);
+} 
+.card6 a:hover .description 
+{
+    color:#f26522;
+}
+.card6 a:hover .dateils 
+{
+    opacity: 1;
+    top: 67%; 
+    transform: translateY(-25px);
+} 
+footer
+{
+    width: 1366px;
+    margin: 0 auto;
+}
+.copy
+{
+    font-size: 12px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.75;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

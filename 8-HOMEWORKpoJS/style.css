@@ -1,0 +1,27 @@
+.input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .price-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  .price-input.green-border {
+    border-color: green;
+  }
+  .price-input.red-border {
+    border-color: red;
+  }
+  #price-info {
+    margin-top: 5px;
+    color: green;
+  }
+  #price-info.error {
+    color: red;
+  }
+  #remove-price {
+    margin-left: 5px;
+    cursor: pointer;
+  }

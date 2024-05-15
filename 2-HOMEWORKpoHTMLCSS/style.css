@@ -1,0 +1,158 @@
+header
+{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+main
+{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: auto;
+}
+
+header h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+header h1 a{
+    text-align: left;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 80px;
+    font-style: normal;
+    color: black;
+}
+.mda
+{
+    color:#41afdf;
+}
+.verh{
+    text-align: center;
+}
+
+.verh ul{
+    background-color: #35444f;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.verh li{
+    display: inline;
+    padding: 20px;
+}
+.verh a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.verh li:hover{
+    background-color: #222f3a;
+    cursor: pointer;
+    outline: 1px solid #818181;
+}
+.levo
+{
+    margin-top: 15px;
+    width: fit-content;
+    border: 1px solid black;
+    text-align: left;
+    height: fit-content;
+    
+}
+.levo ul
+{
+    text-align: left;
+    margin: 0 auto;
+}
+.levo  li
+{ 
+    padding:25px;
+    padding-right: 100px;  
+}
+.levo a
+{
+    display: flex;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(72, 88, 99);
+    font-family: "Roboto";
+    transition: transform 0.5s ease-in-out;
+}
+ 
+.levo li:hover
+{
+    background-color: #dbdbdb;
+}
+.levo a:hover
+{
+  transform: translateX(18px);
+  transition: transform 0.5s ease;
+}
+img{
+    width: 995px;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.text{
+    font-family: "Roboto";
+    padding-top: 15px;
+}
+.text p{
+    margin: 17px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+footer
+{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.niz ul
+{
+    text-align: left;
+    background-color: #b4b7ba;
+    margin: 0 auto;
+}
+.niz li
+{
+    display: inline-block;
+    padding: 24px;  
+   
+}
+.niz a
+{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 28px;
+    color:#0c1927;
+}
+.niz a:hover
+{
+    color: #3181a6;
+    border-bottom: 3px #3181a6 solid;
+}
+.copysymb
+{
+    float: right;
+    text-align: center;
+    padding: 25px;
+    font-size: 24px;
+    font-family: "Roboto";
+    padding-bottom: 60px;
+}
