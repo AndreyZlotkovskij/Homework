@@ -1,0 +1,392 @@
+body
+{
+  background-image: url("body/1.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+header
+{
+  background-color: rgba(0, 0, 0, 0.412);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.branding
+{
+  line-height: 1.05;
+  margin-left: 152px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  
+}
+.branding a
+{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.05;
+  transition: 0.6s;
+}
+.welcome-msg
+{
+  text-align: right;
+  margin-right: 72px;
+}
+.welcome-msg a
+{
+  text-decoration: none;
+}
+.welcome-msg p
+{
+  font-size: 14px;
+  font-family: "Verdana";
+  line-height: 1.5;
+  color: #ffffff;
+  font-weight: bold;
+}
+.nav-icons
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: 25px;
+}
+/*  
+.nav-icon1
+{
+  width: 19px; height: 19px;
+  background: url('header/sprites.png') -10px -10px;
+  margin-right: 28px;
+}
+.nav-icon2
+{
+  width: 28px; height: 20px;
+  background: url('header/sprites.png') -168px -10px;;
+  margin-right: 28px;
+}
+.nav-icon3
+{
+  width: 20px; height: 20px;
+  background: url('header/sprites.png') -128px -10px;
+} */
+
+.login a
+{
+  color: #3cb878;
+}
+.signup a
+{
+  color: #3cb878;
+}
+.welcome-line
+{
+  /* opacity: 0.102; */
+  margin-right: 25px;
+}
+/* .branding a:hover
+{
+  color: #3cb878;
+  transition: 0.6s;
+}
+.nav-icon1:hover
+{
+  width: 19px; height: 19px;
+  background: url('header/sprites.png') -49px -10px;
+}
+.nav-icon2:hover
+{
+  width: 28px; height: 20px;
+  background: url('header/sprites.png') -216px -10px;
+}
+.nav-icon3:hover
+{
+  width: 20px; height: 20px;
+  background: url('header/sprites.png') -88px -10px; */
+/* } */
+.login:hover 
+{
+  color: #3cb878;
+  border-bottom: 1px #3cb878 solid;
+}
+.signup:hover 
+{
+  color: #3cb878;
+  border-bottom: 1px #3cb878 solid;
+}
+main
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  flex-wrap: wrap;
+}
+.registration
+{
+  background-color: white;
+  width: 444px;
+  height: auto;
+  border-radius: 5px;
+  max-width: -webkit-fill-available;
+  margin-bottom: 35px;
+}
+.title-section
+{
+  display: flex;
+  padding-top: 29px;
+}
+.login-link a
+{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Verdana";
+  color: rgb(60, 184, 120);
+  line-height: 1.5;
+  margin-left: auto;
+}
+.login-link a:hover 
+{
+  color: #3cb878;
+  border-bottom: 1px #3cb878 solid;
+}
+.signup-title
+{
+  font-size: 20px;
+  font-family: "Verdana";
+  color: rgb(67, 67, 67);
+  line-height: 1.05;
+  margin-left: 42px;
+}
+
+.shape {
+  background-image: url("main/shape.png");
+  width: 18px;
+  height: 18px;
+}
+.login-link
+{
+  margin-left: auto;
+  margin-right: 58px;
+}
+.social-buttons
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  flex-wrap: wrap;
+}
+.social-buttons a
+{
+  text-decoration: none;
+}
+.Facebook
+{
+  border-radius: 3px;
+  background-color: rgb(48, 93, 184);
+  width: 157px;
+  height: 46px;
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.Facebook:hover
+{
+  background-color: #264b96;
+  transition: 0.3s;
+}
+.f
+{
+  margin-right: 17px;
+  margin-left: 20px;
+}
+.social-text-facebook
+{
+  font-size: 16px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  line-height: 1.313;
+  text-align: left;
+  margin-left: 17px;
+}
+.Google
+{
+  border-radius: 3px;
+  background-color: rgb(223, 74, 50);
+  width: 157px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.Google:hover
+{
+  background-color: #c3412c;
+  transition: 0.3s;
+}
+.G
+{
+  margin-right: 9px;
+  margin-left: 13px;
+}
+.social-text-google
+{
+  font-size: 16px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  line-height: 1.313;
+  text-align: left;
+  margin-left: 24px;
+}
+.welcome-line
+{
+  font-size: 28px;
+  opacity: 0.102;
+  color:rgb(0, 0, 0);
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.orline
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+}
+.divider-line4
+{
+  width: 150px;
+  background-color: #eaeaea;
+  height: 0.5px;
+  margin-left: 19px;
+}
+.divider-line3
+{
+  width: 150px;
+  background-color: #eaeaea;
+  height: 0.5px;
+  margin-right: 19px;
+}
+.or-text{
+  text-align: center;
+}
+.or-divider p
+{
+  font-size: 14px;
+  font-family: "Verdana";
+  color: rgb(132, 132, 132);
+  line-height: 1.5;
+}
+form
+{
+  font-size: 14px;
+  font-family: "Verdana";
+  color: rgb(67, 67, 67);
+  padding-left: 62px;
+  padding-right: 60px;
+  padding-bottom: 32px;
+  padding-top: 18px;
+  flex-wrap: wrap;
+  display: flex; 
+}
+form input[type="text"]
+{
+  width: 303px;
+  margin: 0 auto;
+  padding-top: 19px;
+  padding-left: 17px;
+  padding-bottom: 17px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  max-width: -webkit-fill-available;
+}
+form input[type="password"]
+{
+  width: 303px;
+  margin: 0 auto;
+  padding-top: 19px;
+  padding-left: 17px;
+  padding-bottom: 17px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  max-width: -webkit-fill-available;
+}
+form input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.288);
+}
+form input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.288);
+}
+input[type="checkbox"] 
+{
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  float: left;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  appearance: none;
+  background-color: transparent;
+  position: relative;
+  line-height: 1.5;
+}
+
+input[type="checkbox"]:checked::before 
+{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 3px;
+  height: 6px;
+  border-right: 2px solid #3cb878;
+  border-bottom: 2px solid #3cb878;
+  transform: rotate(45deg);
+}
+label
+{
+  font-size: 14px;
+  font-family: "Verdana";
+  color: rgb(67, 67, 67);
+  line-height: 1.5;
+  margin-left:10px;
+}
+.terms a
+{
+  text-decoration: none;
+  color: rgb(60, 184, 120);
+  font-size: 14px;
+  font-family: "Verdana";
+  line-height: 1.5;
+}
+.terms a:hover
+{
+  border-bottom: 1px #3cb878 solid;
+}
+button
+{
+  width: 322px;
+  height: 46px;
+  border-radius: 3px;
+  border-color: white;
+  background-color: #329a65;
+  font-size: 16px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  line-height: 1.313;
+  margin-top: 28px;
+  max-width: -webkit-fill-available;
+  transition: 0.3s;
+}
+button:hover
+{
+  transition: 0.3s;
+  background-color: #2a8556;
+}
