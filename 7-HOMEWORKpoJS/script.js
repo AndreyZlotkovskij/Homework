@@ -10,11 +10,11 @@
     });
   }
   
-  // Примеры массивов для отображения
+ 
   const array1 = ['hello', 'world', 'Kiev', 'Kharkiv', 'Odessa', 'Lviv'];
   const array2 = ["---------------------------------------------------"];
   const array3 = ['1', '2', '3', 'sea', 'user', 23];
   
-  // Отображаем списки на странице
+ 
   displayLists([array1, array2, array3]);
   
