@@ -264,13 +264,13 @@ main
 .title:before,
 .title:after {
   content: '';
-    display: inline-block;
-    vertical-align: middle;
-    box-sizing: border-box;
-    width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
   height: 1px;
   background: #0a0a0a32;
-    border: solid #FFF;
+  border: solid #FFF;
   border-width: 0 20px;
 }
 .title:before {
